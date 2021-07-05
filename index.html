@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=" initial-scale=1">
+    <title>To Do list</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="content">
+                <h1 style="overflow:hidden; text-align:center; color:white;">To Do List</h1>
+                <hr>
+                <form action="" id="task-form">
+                    <input class="form-control" type="text" id="new-task" placeholder="Things to be done...">
+                    <input style="margin-top:10px; border:none;width:200px;" class="btn btn-light button" type="submit" value="Add Task">
+                </form>
+                <br>
+                <h2 style="overflow:hidden; text-align:center; color:white;">Lists</h2>
+                <input class="form-control" type="text" id="task_filter" placeholder="List_filter">
+                <ul id="tasks_list">
+                </ul>
+                <button class="btn btn-light button" id="clear_task_btn">Clear</button>
+            </div>
+        </div>
+    </section>
+    <!-- JavaScript codes -->
+    <script src="js/script.js">
+    </script>
+</body>
+
+</html>

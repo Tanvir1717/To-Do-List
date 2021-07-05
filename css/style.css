@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	font-family: 'Poppins',sans-serif;
+}
+section{
+	height: 100vh;
+	width: 100%;
+	display: grid;
+	place-items: center;
+	background: #FC5C7D;  
+	background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  
+	background: linear-gradient(to right, #6A82FB, #FC5C7D);
+}
+hr{
+	padding-bottom: 15px;
+	background: #FC5C7D;  
+	background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  
+	background: linear-gradient(to right, #6A82FB, #FC5C7D);
+}
+.container{
+	display: grid;
+	place-items: center;
+}
+/* Content */
+.content{
+	height: 50vh;
+	width: 100%;
+	background: rgba(255, 255, 255, .5);
+	border-radius: 10px;
+	border: none;
+}
+
+.content h1{
+	font-weight: 600;
+	margin-top: 15px;
+	border: none;
+	background: #FC5C7D;  
+	background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  
+	background: linear-gradient(to right, #6A82FB, #FC5C7D);
+}
+.content h2{
+	font-weight: 600;
+	border: none;
+	margin-bottom: 15px;
+	background: #FC5C7D;  
+	background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  
+	background: linear-gradient(to right, #6A82FB, #FC5C7D);
+}
+.content input:focus{
+	outline: none !important;
+	box-shadow: none !important;
+}
+.content button{
+	border: none;
+	position: relative;
+	margin: auto;
+	left: 50%;
+	right: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 15px;
+	width: 200px;
+}
+.content .btn:focus{
+	outline: none !important;
+	box-shadow: none !important;
+}
+.content .btn:hover{
+	color: #ffffff;
+	background: #FC5C7D;  
+	background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  
+	background: linear-gradient(to right, #6A82FB, #FC5C7D);
+	transition: 3s;
+}
+/* list items */
+ul li{
+	cursor: pointer;
+	position: relative;
+	list-style-type: none;
+	transition: 2s;
+	color: #fff;
+	background: #FC5C7D;  
+	background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  
+	background: linear-gradient(to right, #6A82FB, #FC5C7D);
+	border-radius: 5px;
+	margin-top: 15px;
+	padding-left: 10px;
+}
+ul li:nth-child(odd){
+	background: #FC5C7D;  
+	background: -webkit-linear-gradient(to left, #6A82FB, #FC5C7D);  
+	background: linear-gradient(to left, #6A82FB, #FC5C7D);
+}
+ul li a{
+	float: right;
+	color: #fff;
+	padding-top: 2px;
+	padding-right: 10px;
+
+}
+ul a:hover{
+	color: red ;
+}
+ul li:hover{
+	background: grey;
+}
